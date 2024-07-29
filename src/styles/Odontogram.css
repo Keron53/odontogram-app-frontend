@@ -1,0 +1,102 @@
+.odontogram-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .form-container, .odontogram-view-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .odontogram-form, .odontogram-view {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group select,
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 5px;
+  }
+  
+  .treatment-input {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .mouth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .teeth-row {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+  }
+  
+  .tooth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 3px;
+  }
+  
+  .tooth {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .tooth-number {
+    font-size: 12px;
+    margin-bottom: 3px;
+  }
+  
+  .tooth-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .tooth-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .tooth-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .tooth-card h3 {
+    margin: 0 0 10px;
+  }
+  

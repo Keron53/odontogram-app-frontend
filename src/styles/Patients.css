@@ -1,0 +1,40 @@
+.patients-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .patient-form {
+    margin-bottom: 20px;
+  }
+  
+  .patients-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .patient-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    flex: 1 1 calc(33% - 20px);
+    box-sizing: border-box;
+    min-width: 250px;
+  }
+  
+  .patient-card h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .patient-card p {
+    margin: 5px 0;
+  }
+  
+  .patient-card .btn {
+    margin-top: 10px;
+  }
+  

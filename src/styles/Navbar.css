@@ -1,0 +1,33 @@
+
+.navbar {
+    background-color: #333;
+    padding: 0 1rem;
+    user-select: none;
+}
+
+.p-menubar {
+    border: none;
+    background-color: transparent;
+    user-select: none;
+}
+
+.p-menubar .p-menuitem-link {
+    font-size: 1.1rem;
+    padding: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+}
+
+.p-menubar .p-menuitem-link:hover {
+    background-color: #555;
+    text-decoration: none;
+}
+
+.p-menubar .p-menuitem-link:focus {
+    box-shadow: none;
+}
+
+.p-menubar .p-menuitem-link .pi {
+    margin-right: 0.5rem;
+}
+

@@ -1,0 +1,84 @@
+.container {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .hero-section {
+    background-color: #e6f7ff;
+    padding: 2rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    user-select: none;
+  }
+  
+  .hero-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    cursor:pointer;
+    outline: none;
+    user-select: none;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    color: #007acc;
+    user-select: none;
+    user-select: none;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.25rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+    user-select: none;
+  }
+  
+  .hero-button {
+    font-size: 1rem;
+    padding: 0.75rem 2rem;
+    background-color: #007acc;
+    border-color: #007acc;
+    user-select: none;
+  }
+  
+  .services-section {
+    margin-top: 3rem;
+    user-select: none;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    user-select: none;
+  }
+  
+  .services-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    user-select: none;
+  }
+  
+  .service-card {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+    user-select: none;
+  }
+  
+  .service-icon {
+    font-size: 3rem;
+    color: #007acc;
+    margin-bottom: 1rem;
+    user-select: none;
+  }
+  
